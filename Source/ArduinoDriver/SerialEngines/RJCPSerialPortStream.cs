@@ -1,8 +1,5 @@
-﻿using RJCP.IO.Ports;
+﻿namespace ArduinoDriver.SerialEngines {
+    using RJCP.IO.Ports;
 
-namespace ArduinoDriver.SerialEngines
-{
-    public class RJCPSerialPortStream : SerialPortStream, ISerialPortEngine
-    {
-    }
+    public class RJCPSerialPortStream : SerialPortStream, ISerialPortEngine { }
 }

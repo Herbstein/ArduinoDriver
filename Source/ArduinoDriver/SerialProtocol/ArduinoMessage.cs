@@ -1,6 +1,3 @@
-﻿namespace ArduinoDriver.SerialProtocol
-{
-    public abstract class ArduinoMessage
-    {
-    }
+﻿namespace ArduinoDriver.SerialProtocol {
+    public abstract class ArduinoMessage { }
 }

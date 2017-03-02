@@ -1,10 +1,6 @@
-﻿namespace ArduinoDriver.SerialProtocol
-{
-    public class HandShakeRequest : ArduinoRequest
-    {
+﻿namespace ArduinoDriver.SerialProtocol {
+    public class HandShakeRequest : ArduinoRequest {
         public HandShakeRequest()
-            : base(CommandConstants.HandshakeInitiate)
-        {
-        }
+            : base(CommandConstants.HandshakeInitiate) { }
     }
 }

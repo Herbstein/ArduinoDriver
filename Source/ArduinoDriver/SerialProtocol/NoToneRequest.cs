@@ -1,10 +1,7 @@
-﻿namespace ArduinoDriver.SerialProtocol
-{
-    public class NoToneRequest : ArduinoRequest
-    {
+﻿namespace ArduinoDriver.SerialProtocol {
+    public class NoToneRequest : ArduinoRequest {
         public NoToneRequest(byte pinToWrite)
-            : base(CommandConstants.NoTone)
-        {
+            : base(CommandConstants.NoTone) {
             Bytes.Add(pinToWrite);
         }
     }

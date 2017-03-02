@@ -1,9 +1,7 @@
-﻿using System;
+﻿namespace ArduinoDriver.SerialEngines {
+    using System;
 
-namespace ArduinoDriver.SerialEngines
-{
-    public interface ISerialPortEngine : IDisposable
-    {
+    public interface ISerialPortEngine : IDisposable {
         string PortName { get; set; }
         int BaudRate { get; set; }
         int ReadTimeout { get; set; }

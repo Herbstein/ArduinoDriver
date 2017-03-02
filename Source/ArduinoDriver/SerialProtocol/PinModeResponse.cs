@@ -1,14 +1,11 @@
-﻿namespace ArduinoDriver.SerialProtocol
-{
-    public class PinModeResponse : ArduinoResponse
-    {
-        public int Pin { get; private set; }
-        public PinMode Mode { get; private set; }
-
-        public PinModeResponse(int pin, PinMode mode)
-        {
+﻿namespace ArduinoDriver.SerialProtocol {
+    public class PinModeResponse : ArduinoResponse {
+        public PinModeResponse(int pin, PinMode mode) {
             Pin = pin;
-            Mode = mode;            
+            Mode = mode;
         }
+
+        public int Pin { get; }
+        public PinMode Mode { get; }
     }
 }

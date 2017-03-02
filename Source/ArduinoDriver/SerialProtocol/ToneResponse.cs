@@ -1,6 +1,3 @@
-﻿namespace ArduinoDriver.SerialProtocol
-{
-    public class ToneResponse : ArduinoResponse
-    {
-    }
+﻿namespace ArduinoDriver.SerialProtocol {
+    public class ToneResponse : ArduinoResponse { }
 }
